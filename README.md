@@ -63,17 +63,20 @@ CHAIN='rinkeby'          # Type your desire Chain Name
 🚴‍♂️ you can Complete your NFT upload Process  Only in  Three Steps:
 
 step 1: -
-```node utils/nftport/uploadFiles.js
+```sh
+node utils/nftport/uploadFiles.js
 ```
 
 
 step 2: -
-```node utils/nftport/uploadMetas.js
+```sh
+node utils/nftport/uploadMetas.js
 ```
 
 
 step 3: -
-```node utils/nftport/mint.js
+```sh
+node utils/nftport/mint.js
 ```
 
 ## Reference the [video](https://youtu.be/AaCgydeMu64) for more details. All commands to upload and mint are the same. 
