@@ -1,0 +1,25 @@
+# Logs
+
+logs
+_.log
+npm-debug.log_
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log\*
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+
+build/
+
+# Dependency directories
+
+build/
+dist/
+node_modules/
+jspm_packages/
+
+# dotenv environment variables file
+
+.env
+
+
