@@ -35,13 +35,45 @@ There have been some changes made to the code from the original video resulting 
 
 To fix these issues, I've updated the code to include a timeout that will allow the files to be uploaded at a slower rate, instead of all at once, eliminating these errors.  
 
-**To use this code:**
+# 🚀 Quick Start
 
-- Clone this repo or download the latest release zip file.
-- Unzip, if needed, and open the folder in VS Code.
-- From the terminal type: 
-  - `npm install`
-- Copy your image layers into the `layers` folder.
-- Use the `src/config.js` file to set up your layers and NFT information.
+📄 Clone or fork `ethereum-boilerplate`:
+
+```sh
+git clone https://github.com/Arjun-Shrivas/10kNFTCreation-Script.git
+```
+
+💿 Install all dependencies:
+
+```sh
+cd ethereum-boilerplate
+npm install
+```
+
+✏ Rename `.env.example` to `.env` in the main folder and provide your `appId` and `serverUrl` from Moralis ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
+Example:
+
+```jsx
+AUTH=xxx-xxxx-xxxx-xxxx # Past here your NFTPort API KEY
+CONTRACT_ADDRESS=xx-xxx-xxx-xxx-xx # Past here Your Deployed Contract Address that placed in NFTPORT  
+MINT_TO_ADDRESS=xx-xxx-xxx-xxx-xxx # Past Here Your Wallet Address
+CHAIN='rinkeby'          # Type your desire Chain Name 
+```
+
+🚴‍♂️ you can Complete your NFT upload Process  Only in  Three Steps:
+
+step 1: -
+```node utils/nftport/uploadFiles.js
+```
+
+
+step 2: -
+```node utils/nftport/uploadMetas.js
+```
+
+
+step 3: -
+```node utils/nftport/mint.js
+```
 
 ## Reference the [video](https://youtu.be/AaCgydeMu64) for more details. All commands to upload and mint are the same. 
